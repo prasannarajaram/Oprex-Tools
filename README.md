@@ -17,10 +17,10 @@ javascript:(function() {    const buttons = document.querySelectorAll('span[id^=
 https://github.com/user-attachments/assets/b1da3ab9-2b06-446d-8efb-2853d0027647
 
 ## Select all checkboxes
-When creating an "Audit view" (read as exporting Oprex review to PDF), there are four check boxes that the user must select to export the complete Oprex form (with review) as PDF.
-It is possible that one of the checkboxes could be missed and the resulting PDF may not have the complete export of the Oprex for review.
-To make this easier, we have the JS function below which will "check" all the checkboxes in given Oprex form.
-To create this button, go to bookmarks (favorites) in the browser and create a new one.  
+When creating an "Audit view" (read as exporting Oprex review to PDF), there are four check boxes that the user must select to export the complete Oprex form (with review) as PDF.  
+It is possible that one of the checkboxes could be missed and the resulting PDF may not have the complete export of the Oprex for review.  
+To make this easier, we have the JS function below which will "check" all the checkboxes in given Oprex form.  
+To create this button, go to bookmarks (favorites) in the browser and create a new one.    
 Instead of providing a url, copy paste the below JS function into URL box. Save.  
 ```javascript
 javascript:(function() {    document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.click());    })();
