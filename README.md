@@ -22,6 +22,8 @@ It is possible that one of the checkboxes could be missed and the resulting PDF 
 To make this easier, we have the JS function below which will "check" all the checkboxes in given Oprex form.  
 To create this button, go to bookmarks (favorites) in the browser and create a new one.    
 Instead of providing a url, copy paste the below JS function into URL box. Save.  
+
+_Pitfalls: Clicking it twice will uncheck everything. Worst, it will toggle selection if one the checkbox is selected_
 ```javascript
 javascript:(function() {    document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.click());    })();
 ```
