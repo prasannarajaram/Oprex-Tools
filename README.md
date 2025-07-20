@@ -1,5 +1,7 @@
 # Oprex-Tools
 Some tools to make life easier with Oprex forms
+1. [Expand all sections in an Oprex page](https://github.com/prasannarajaram/Oprex-Tools/blob/main/README.md#expand-all-sections-in-an-oprex-page)
+2. [Select all checkboxes](https://github.com/prasannarajaram/Oprex-Tools/blob/main/README.md#select-all-checkboxes)
 
 ## Expand all sections in an Oprex page
 Many a times it is required to search the filled in Oprex form or a specific Oprex question.  
