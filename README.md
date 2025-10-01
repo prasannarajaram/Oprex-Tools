@@ -39,6 +39,8 @@ javascript:(()=>{document.querySelectorAll('.MuiGrid-root.MuiGrid-item').forEach
 When the sign button is clicked in Oprex, the review is signed; the section folds; the user has to click the expand button to go to the next review to sign.
 If the number of reviews are more, then this can easily take up to 1 min/review. This JS function will click the sign button for the user.
 The code has a built in delay of 30s after clicking sign and 30s delay to allow the expansion of section.
+
+### [A Short Video](https://youtu.be/CYXOi9ZyLOU)
 ```javascript
 (async function runSignRoutineWithCount() {
   function wait(ms) { return new Promise(res => setTimeout(res, ms)); }
